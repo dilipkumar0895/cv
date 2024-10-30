@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
@@ -49,3 +50,164 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilip Kumar's Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        .container {
+            max-width: 750px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #2980b9;
+        }
+        h1 {
+            color: #2980b9;
+            text-align: center;
+        }
+        h2, h3 {
+            color: #34495e;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .skills ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .contact {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .feedback-section {
+            margin-top: 40px;
+            text-align: center;
+            border-top: 2px solid #2980b9;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dilip Kumar</h1>
+        <img src="https://raw.githubusercontent.com/dilipkumar0895/cv/main/my_photo/dilip_kumar_photo.jpeg" alt="Dilip Kumar's photo">
+        
+        <div class="contact">
+            <p>Email: dilipkumar0895@gmail.com</p>
+            <p>Phone: +4915163558737</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/dilipkumar0895">linkedin.com/in/dilipkumar0895</a></p>
+        </div>
+
+        <h2>Overview</h2>
+        <p>I hold a Bachelor of Technology degree from Bharath University and have six years of experience in embedded software testing. Currently, I serve as a Senior Engineer at LTTS, a premier provider of engineering and R&D services. My expertise lies in manual testing methodologies, encompassing regression, functional, and exploratory testing, as well as executing unit tests and identifying software defects.</p>
+        <p>With substantial hands-on experience in both the software development life cycle (SDLC) and the software testing life cycle (STLC), I effectively leverage tools such as Ansible for continuous integration and continuous delivery (CI/CD) processes. Throughout my tenure at LTTS, I have contributed significantly to diverse projects, ensuring the quality and reliability of software products.</p>
+        <p>My collaborative approach involves working closely with engineers, developers, and clients, highlighting my strong communication and presentation skills. I am committed to continuous learning and thrive on the challenges presented in embedded software testing, aiming to deliver high-quality solutions that meet customer expectations and industry standards.</p>
+
+        <h2>Experience</h2>
+        <h3>Senior Engineer | L&T Technology Services, Germany</h3>
+        <p>January 2020 - Present</p>
+        <ul>
+            <li>Lead client interactions to ensure project alignment and satisfaction.</li>
+            <li>Develop and maintain Continuous Integration/Continuous Development (CI/CD) infrastructure.</li>
+            <li>Extensive work with Linux environments and automation tools like Ansible.</li>
+            <li>Conduct technical discussions and collaborate with cross-functional teams.</li>
+            <li>Utilize Gerrit and GitHub for version control and project management.</li>
+            <li>Contribute to the Automotive Android Google Certification Test (CTS).</li>
+            <li>Maintain automated test cases within CI/CD pipelines using Jenkins.</li>
+            <li>Engage in hardware testing and recovery for Linux and Android Head Units.</li>
+        </ul>
+
+        <h3>Infotainment Manual Tester | Motrex Automotive India Pvt. Ltd.</h3>
+        <p>July 2018 - January 2020</p>
+        <ul>
+            <li>Conducted comprehensive manual testing for infotainment systems.</li>
+            <li>Collaborated with cross-functional teams to enhance product quality.</li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>B.Tech | Bharath University | 2016</p>
+        
+        <h2>Core Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>Infotainment Manual Testing</li>
+                <li>Automation Testing</li>
+                <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+                <li>Linux GUI and Server Management</li>
+                <li>Gerrit and GitHub for Version Control</li>
+                <li>Linux and Python Scripting</li>
+                <li>Infrastructure Automation with Ansible</li>
+                <li>Automotive Android Google Certification Test (CTS)</li>
+                <li>Jenkins and Zuul Job Analysis</li>
+                <li>Hardware Testing with Arduino</li>
+                <li>Agile Methodologies</li>
+            </ul>
+        </div>
+
+        <div class="feedback-section">
+            <h2>Feedback / Reach Out to Me</h2>
+            <form action="https://formspree.io/f/mqakerwd" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+>>>>>>> 6a6e04e (updating cv)
